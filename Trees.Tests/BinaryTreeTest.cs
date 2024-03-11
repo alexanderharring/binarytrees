@@ -110,6 +110,7 @@ namespace Trees.Tests
             List<string> nodes = tree.BreadthFirst();
             List<string> expected = new() { "G", "A", "R", "C", "Q", "Z", "B", "P" };
             CollectionAssert.AreEqual(expected, nodes);
+            
         }
 
 
